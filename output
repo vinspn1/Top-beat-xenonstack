@@ -1,0 +1,364 @@
+{
+  "took" : 354,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 1522,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQti3X29T-WXh9zJ1fL",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T08:03:11.652Z",
+        "beat" : {
+          "hostname" : "VINAYAK",
+          "name" : "VINAYAK"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\WINDOWS\\system32\\igfxCUIService.exe",
+          "cpu" : {
+            "user" : 109,
+            "user_p" : 0,
+            "system" : 93,
+            "total" : 202,
+            "start_time" : "Sep20"
+          },
+          "mem" : {
+            "size" : 2019328,
+            "rss" : 3862528,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "igfxCUIService.exe",
+          "pid" : 1320,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\SYSTEM"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQti3X29T-WXh9zJ1fQ",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T08:03:11.704Z",
+        "beat" : {
+          "hostname" : "VINAYAK",
+          "name" : "VINAYAK"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\WINDOWS\\system32\\BtwRSupportService.exe",
+          "cpu" : {
+            "user" : 15,
+            "user_p" : 0,
+            "system" : 31,
+            "total" : 46,
+            "start_time" : "Sep20"
+          },
+          "mem" : {
+            "size" : 1720320,
+            "rss" : 1183744,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "BtwRSupportService.exe",
+          "pid" : 1940,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\SYSTEM"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQti3X29T-WXh9zJ1fR",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T08:03:11.714Z",
+        "beat" : {
+          "hostname" : "VINAYAK",
+          "name" : "VINAYAK"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\ProgramData\\ChgService.exe\" -service",
+          "cpu" : {
+            "user" : 453,
+            "user_p" : 2.0E-4,
+            "system" : 750,
+            "total" : 1203,
+            "start_time" : "Sep20"
+          },
+          "mem" : {
+            "size" : 3772416,
+            "rss" : 1482752,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "ChgService.exe",
+          "pid" : 1952,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\SYSTEM"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQti3X29T-WXh9zJ1fT",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T08:03:11.735Z",
+        "beat" : {
+          "hostname" : "VINAYAK",
+          "name" : "VINAYAK"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\NVIDIA Corporation\\GeForce Experience Service\\GfExperienceService.exe\"",
+          "cpu" : {
+            "user" : 421,
+            "user_p" : 2.0E-4,
+            "system" : 718,
+            "total" : 1139,
+            "start_time" : "Sep20"
+          },
+          "mem" : {
+            "size" : 3854336,
+            "rss" : 6402048,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "GfExperienceService.exe",
+          "pid" : 2036,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\SYSTEM"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQti3X39T-WXh9zJ1fU",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T08:03:11.745Z",
+        "beat" : {
+          "hostname" : "VINAYAK",
+          "name" : "VINAYAK"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\Intel\\iCLS Client\\HeciServer.exe\"",
+          "cpu" : {
+            "user" : 31,
+            "user_p" : 0,
+            "system" : 62,
+            "total" : 93,
+            "start_time" : "Sep20"
+          },
+          "mem" : {
+            "size" : 1445888,
+            "rss" : 1544192,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "HeciServer.exe",
+          "pid" : 1100,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\SYSTEM"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQti3X39T-WXh9zJ1fa",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T08:03:11.808Z",
+        "beat" : {
+          "hostname" : "VINAYAK",
+          "name" : "VINAYAK"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\WINDOWS\\system32\\svchost.exe -k imgsvc",
+          "cpu" : {
+            "user" : 750,
+            "user_p" : 0,
+            "system" : 968,
+            "total" : 1718,
+            "start_time" : "Sep20"
+          },
+          "mem" : {
+            "size" : 2355200,
+            "rss" : 6307840,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "svchost.exe",
+          "pid" : 2260,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\LOCAL SERVICE"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQti3X39T-WXh9zJ1fb",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T08:03:11.818Z",
+        "beat" : {
+          "hostname" : "VINAYAK",
+          "name" : "VINAYAK"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\WINDOWS\\system32\\svchost.exe -k appmodel",
+          "cpu" : {
+            "user" : 83203,
+            "user_p" : 2.0E-4,
+            "system" : 30937,
+            "total" : 114140,
+            "start_time" : "Sep20"
+          },
+          "mem" : {
+            "size" : 4882432,
+            "rss" : 9228288,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "svchost.exe",
+          "pid" : 2388,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\SYSTEM"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQti3X49T-WXh9zJ1fh",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T08:03:11.880Z",
+        "beat" : {
+          "hostname" : "VINAYAK",
+          "name" : "VINAYAK"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\WINDOWS\\SysWOW64\\DllHost.exe /Processid:{CB45D4CA-8A34-4EF1-9957-6134E5270E83}",
+          "cpu" : {
+            "user" : 46,
+            "user_p" : 0,
+            "system" : 140,
+            "total" : 186,
+            "start_time" : "Sep20"
+          },
+          "mem" : {
+            "size" : 2297856,
+            "rss" : 3362816,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "dllhost.exe",
+          "pid" : 3668,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\LOCAL SERVICE"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQti3X49T-WXh9zJ1fj",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T08:03:11.899Z",
+        "beat" : {
+          "hostname" : "VINAYAK",
+          "name" : "VINAYAK"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\WINDOWS\\System32\\alg.exe",
+          "cpu" : {
+            "user" : 31,
+            "user_p" : 0,
+            "system" : 15,
+            "total" : 46,
+            "start_time" : "Sep20"
+          },
+          "mem" : {
+            "size" : 1458176,
+            "rss" : 1679360,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "alg.exe",
+          "pid" : 3876,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\LOCAL SERVICE"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQti3X59T-WXh9zJ1ft",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T08:03:12.003Z",
+        "beat" : {
+          "hostname" : "VINAYAK",
+          "name" : "VINAYAK"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\Sony\\VAIO Update\\vuagent.exe\"",
+          "cpu" : {
+            "user" : 2453,
+            "user_p" : 0,
+            "system" : 3171,
+            "total" : 5624,
+            "start_time" : "Sep20"
+          },
+          "mem" : {
+            "size" : 6643712,
+            "rss" : 9949184,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "VUAgent.exe",
+          "pid" : 6548,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\SYSTEM"
+        },
+        "type" : "process"
+      }
+    } ]
+  }
+}
